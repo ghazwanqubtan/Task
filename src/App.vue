@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Nav></Nav>
+    <div>
+      <AddProduct/>
+      <Products :products="products" />
+    </div>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { mapGetters, mapActions } from "vuex";
+import Nav from "./components/Nav.vue";
+import Products from "./components/Products.vue";
+import AddProduct from "./components/AddProduct.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Nav,
+    Products,
+    AddProduct,
+  },
+  methods: {
+    ...mapActions(["fetchProductsAction"]),
+  },
+  created() {
+    this.fetchProductsAction();
+  },
+  computed: mapGetters(["products"]),
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

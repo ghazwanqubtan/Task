@@ -1,0 +1,206 @@
+{
+    "state": {
+    "products":[
+        {
+            "name": "Product A",
+            "agentPrice": 10,
+            "wholeSalePrice": 20,
+            "normalSalePrice": 30,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity": 100
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 200
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 0
+                }
+            ]
+        },
+        {
+            "name": "Product A",
+            "agentPrice": 10,
+            "wholeSalePrice": 20,
+            "normalSalePrice": 30,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity": 100
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 200
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 0
+                }
+            ]
+        },
+        {
+            "name": "Product B",
+            "agentPrice": 10.5,
+            "wholeSalePrice": 20.3,
+            "normalSalePrice": 30.44,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity": 100
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 40
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 50
+                }
+            ]
+        },
+        {
+            "name": "Product C",
+            "agentPrice": 22,
+            "wholeSalePrice": 33,
+            "normalSalePrice": 23,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity": 117
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 0
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 120
+                }
+            ]
+        },
+        {
+            "name": "Product D",
+            "agentPrice": 12,
+            "wholeSalePrice": 24,
+            "normalSalePrice": 55.8,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity": 0
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 310
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 212
+                }
+            ]
+        },
+        {
+            "name": "Product E",
+            "agentPrice": 22,
+            "wholeSalePrice": 15,
+            "normalSalePrice": 44.5,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity":202
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 232
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 11
+                }
+            ]
+        },
+        {
+            "name": "Product F",
+            "agentPrice": 66,
+            "wholeSalePrice": 76,
+            "normalSalePrice": 58,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity":100
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 0
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 0
+                }
+            ]
+        },
+        {
+            "name": "Product G",
+            "agentPrice": 154,
+            "wholeSalePrice": 345,
+            "normalSalePrice": 32,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity":202
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 232
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 11
+                }
+            ]
+        },
+        {
+            "name": "Product H",
+            "agentPrice": 80,
+            "wholeSalePrice": 90,
+            "normalSalePrice": 97,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity":77
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 74
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 59
+                }
+            ]
+        },
+        {
+            "name": "Product I",
+            "agentPrice": 245,
+            "wholeSalePrice": 544,
+            "normalSalePrice": 334,
+            "inventory": [
+                {
+                    "name": "Basra",
+                    "quantity":0
+                },
+                {
+                    "name": "Baghdad",
+                    "quantity": 33
+                },
+                {
+                    "name": "Erbil",
+                    "quantity": 0
+                }
+            ]
+        }
+    ]
+}
+}
